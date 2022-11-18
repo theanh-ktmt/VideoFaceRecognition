@@ -4,7 +4,7 @@ import yaml
 import os
 from pathlib import Path
 from PIL import Image
-from models import FaceDetection, FaceRecognition, FrameProcessing
+from models import FrameProcessing
 import pickle
 import numpy as np
 

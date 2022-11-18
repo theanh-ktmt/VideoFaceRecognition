@@ -47,8 +47,9 @@ class VideoProcessing:
             
             frame_count += 1
         
+        time_elapse = time.time() - start
         print('Done after {}!'.format(
-            datetime.timedelta(seconds=int(time.time() - start))
+            datetime.timedelta(seconds=int(time_elapse))
         ))
         
-        return results, vidfps, vidframe, viddur
+        return results, vidfps, vidframe, viddur, time_elapse

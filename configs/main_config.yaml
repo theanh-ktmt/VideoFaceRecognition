@@ -2,6 +2,7 @@
 known_image_folder: dataset\\images
 known_id_path: dataset\\ids\\known_ids.sav
 reset_ids: True  # Reset all ids, or else embed new faces only
+reset_file_path: tools\\create_known_ids.py
 
 # Face detection config
 face_detection_path: saved\\face_detection_yunet.onnx
@@ -20,7 +21,3 @@ log_results: True
 
 # Capture config
 capture_every: 5 # seconds
-
-# Others
-video_path: https://www.youtube.com/watch?v=moZ6ZXk6EgI
-# video_path: saved\\video.mp4
