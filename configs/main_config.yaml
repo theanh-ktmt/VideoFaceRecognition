@@ -1,0 +1,26 @@
+# Image and IDs
+known_image_folder: dataset\\images
+known_id_path: dataset\\ids\\known_ids.sav
+reset_ids: True  # Reset all ids, or else embed new faces only
+
+# Face detection config
+face_detection_path: saved\\face_detection_yunet.onnx
+detect_size: 224
+detect_conf_threshold: 0.90
+detect_size_threshold: 400
+
+# Face recognition config
+face_recognition_path: saved\\pixta_fr.onnx
+recognize_threshold: 0.95
+recognize_input_size: 112
+
+# Log results
+log_dir: logs
+log_results: True
+
+# Capture config
+capture_every: 5 # seconds
+
+# Others
+video_path: https://www.youtube.com/watch?v=moZ6ZXk6EgI
+# video_path: saved\\video.mp4

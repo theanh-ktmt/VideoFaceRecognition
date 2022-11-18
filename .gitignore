@@ -1,0 +1,7 @@
+venv
+vietasr
+__pycache__
+facenet_pytorch
+logs
+saved
+insightface
