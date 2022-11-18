@@ -10,7 +10,7 @@ detect_conf_threshold: 0.90
 detect_size_threshold: 400
 
 # Face recognition config
-face_recognition_path: saved\\pixta_fr.onnx
+face_recognition_path: saved\\custom_model.onnx
 recognize_threshold: 0.95
 recognize_input_size: 112
 
